@@ -1,0 +1,53 @@
+#main
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada;
+}
+#main-2
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada;
+}
+#center
+{
+width: 80%;
+height: 100%;
+}
+h1{
+    position: relative;
+    font-family: ''
+}
+
+.Header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    margin: 0 auto;
+}
+
+.Header .Nav div{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-2 ul{
+    display: flex;
+    gap: 50px;
+}
+
+.reveal .parent 
+{
+    display: block;
+    overflow: hidden;
+}
+
+.reveal .parent .child
+{
+    display: block;
+    transform: translateY(100%);
+}
+
